@@ -2,6 +2,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import './App.css'
 import Home from './components/pages/HomePage'
 import AnotherPage from './components/pages/AnotherPage'
+import ThirdPage from './components/pages/ThirdPage'
 
 const router = createBrowserRouter([
   {
@@ -11,6 +12,10 @@ const router = createBrowserRouter([
   {
     path: '/outra',
     element: <AnotherPage />
+  },
+  {
+    path: '/terceira',
+    element: <ThirdPage />
   }
 ])
 

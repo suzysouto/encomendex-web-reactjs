@@ -5,6 +5,7 @@ const AnotherPage = () => {
     <>
       <h1>Another page</h1>
       <Link to={"/"}>Home page</Link>
+      <Link to={"/terceira"}>Third page</Link>
     </>
   )
 }

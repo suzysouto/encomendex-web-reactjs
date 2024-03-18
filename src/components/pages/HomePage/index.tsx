@@ -5,6 +5,7 @@ const Home = () => {
     <>
       <h1>Home page</h1>
       <Link to={"/outra"}>Other page</Link>
+      <Link to={"/terceira"}>Third page</Link>
     </>
   )
 }
