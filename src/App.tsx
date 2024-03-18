@@ -1,16 +1,24 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import './App.css'
-import Home from './components/pages/HomePage'
+/* import Home from './components/pages/HomePage'
 import AnotherPage from './components/pages/AnotherPage'
+import ThirdPage from './components/pages/ThirdPage' */
+import { Register } from './components/pages/Register'
+import { Resident } from './components/pages/Resident'
+import { Administrator } from './components/pages/Administrator'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Home />
+    element: <Register regResidentBtnText={'Cadastro de morador'} regAdminBtnText={'Cadastro de administrador'} />
   },
   {
-    path: '/outra',
-    element: <AnotherPage />
+    path: '/morador',
+    element: <Resident title={'Cadastro do Morador'} />
+  },
+  {
+    path: '/administrador',
+    element: <Administrator />
   }
 ])
 
