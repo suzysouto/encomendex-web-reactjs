@@ -17,6 +17,7 @@ export const Title = styled.p`
   justify-content: center;
   font-size: 2rem;
   color: #2D0C57;
+  padding-bottom: 2rem;
 `
 
 export const Form = styled.form`
