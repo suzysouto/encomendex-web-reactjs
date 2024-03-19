@@ -1,11 +1,9 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import './App.css'
-/* import Home from './components/pages/HomePage'
-import AnotherPage from './components/pages/AnotherPage'
-import ThirdPage from './components/pages/ThirdPage' */
 import { Register } from './components/pages/Register'
 import { Resident } from './components/pages/Resident'
 import { Administrator } from './components/pages/Administrator'
+import { Page } from './App'
+import Container from './components/common/Container'
 
 const router = createBrowserRouter([
   {
@@ -25,12 +23,11 @@ const router = createBrowserRouter([
 function App() {
 
   return (
-    <>
-      <div>
-        <h1>Hello World!</h1>
+    <Page>
+      <Container>
         <RouterProvider router={router} />
-      </div>
-    </>
+      </Container>
+    </Page>
   )
 }
 

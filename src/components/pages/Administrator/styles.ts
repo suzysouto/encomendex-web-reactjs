@@ -1,6 +1,12 @@
 import styled from '@emotion/styled'
 
 export const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
   a {
       text-decoration: none;
     }
@@ -42,9 +48,10 @@ export const ButtonAdministrator = styled.button`
   padding: 0.3rem 0.5rem;
   border-radius: 1rem;
   width: 100%;
-  max-width: 27rem;
+  max-width: 25rem;
   height: 3rem;
   border: none;
+  margin-top: 2rem;
 `
 
 export const ButtonAdministratorText = styled.p`

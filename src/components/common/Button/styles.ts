@@ -9,7 +9,7 @@ export const Content = styled.div<ContentTypes>`
   color: ${textColorButton};
   padding: 1rem;
   border-radius: 0.5rem;
-  width: 15rem;
+  width: 18rem;
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
